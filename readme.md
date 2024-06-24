@@ -9,7 +9,7 @@ Neste desafio, aplicamos os conceitos aprendidos para:
 - Consumir uma API externa para obter a cotação do dólar.
 - Registrar cotações em um banco de dados SQLite.
 - Implementar timeouts com o package `context` em diferentes partes do sistema.
-- Salvar cotações em um arquivo de texto.
+- Salvar cotações em um arquivo de texto(txt).
 
 ### Requisitos
 
