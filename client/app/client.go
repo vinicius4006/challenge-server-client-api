@@ -56,7 +56,7 @@ func (c client) Run() {
 
 func saveFile(content []byte) error {
 	content = convertJsonToSave(content)
-	f, err := os.Create(filepath.Join("/home/vinicius/Documents/Study/pos-grad/projects/client-server-api/client/app/files", filepath.Base("cotacao.txt")))
+	f, err := os.Create(filepath.Join("files", filepath.Base("cotacao.txt")))
 	if err != nil {
 		return err
 	}
